@@ -1,0 +1,282 @@
+<!--Welcome! Read through these code comments for instructions on how to design a code and digital technology narrative project where audiences can learn about who you are and where you're going. Along the way, you'll learn everything you need to know to get started working with code.-->
+
+<!--HTML pages start by calling <!DOCTYPE html> and designating a language. In this case, United States English. Search engines, browsers, and screen readers use this information to deliver content specific to user needs.-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<!--The <head> element contains additional information for search engines and browsers.--> 
+<!--The <title> tag controls the name on the browser tab.-->
+  <title>I am Steve</title>
+<!--This website follows the Unicode 8-bit character set that standardizes all of the letters from all of the languages in the world--emojis too!-->
+  <meta charset="UTF-8">
+<!--This viewport <meta> tag standard tells browsers how to display the website across different sized screens.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--This link adds the favicon image to the browser tab-->    
+  <link rel="icon" type="image/jpg" href="favicon.jpg">
+<!--This <link> (rel)ates to the cascading style sheet or CSS in your project folder. Web designers use CSS to add styling to a website. Using CSS saves time and results in fewer lines of code.-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--The <body> element organizes all of the code and content that actually appears on a screen. You can change the background color by opening the style.css document in the body tag properties. Choose a color with enough contrast for your audience. Neutral colors work best for the greatest number of viewers.-->
+<body>
+
+<!--Developers refer to this next section as the "hero image. 
+Fill in the blank between <h1>"I am..."</h1> and see what happens.-->
+    
+<!--Glitch a .jpg image by editing the source code. Open the digital image file using “text/edit” on Macs (located in Launchpad/other), "Notepad" on Windows, or "text" on Chromebooks (located in App launcher). Make a test glitch: scroll down to the middle of the document. Copy, cut, move, and paste 10-20 lines of code. Hit save. Then open the original image to see what has changed. Once you understand your reference position, you can begin glitching with more precision.   
+   
+To add your glitch image, simply find and delete the hero.jpg file in the project folder. Then name your glitched image file to the project folder and name it "hero.jpg." If an image is larger than 1200px in width, you will want to resize it speed up load time. Crop image height to ensure desired fit.--> 
+
+<!--The "hero-image" properties are controlled on the style.css document. We know this because the <div> calls the class="hero-image". You can open the style.css file and find the hero-image class to edit its properties. Alternatively you can edit the file height by cropping the image to fit within the hero-image.--> 
+
+<div class="hero-image">
+  <div class="hero-text">
+      <h1>I am Dr. Stephen Quigley</h1>
+      <h2>A Teacher's Code and Digital Technology Narrative</h2>
+  </div>
+</div>
+
+<!--Privacy is important factor to consider in online composing. How much do you want others to know about you and what images do you want circulating on the internet? Choose your images and other content carefully and be thoughtful about how your content could impact others. If you are concerned about issues of privacy, you can always use stock images, or get creative in other ways.-->
+
+<!--We'll use this first textblock to do a little writing about who we are, where and what we teach, and telling a story about code or a digital technology.-->
+<div class="text-block" style="text-align: left">
+<!--"Align text left/right/center using inline style properties. To improve accessibility, always left-align text longer than three lines.-->
+  <h2>Introduction</h2>
+    <p>My love of computers started when I began playing around with Adobe Photoshop and InDesign while working on my high school newspaper (InDesign was called Pagemaker way back then). I got pretty good "photoshoping" the head of our school principal onto bikini clad models and  designing logos and advertisements for my friends. I loved the Adobe design graphic interface and the way I could learn new Adobe tools really quickly. In grad school I discovered Adobe Muse, a program that allowed me to design and publish webpages using the same kind of graphic interface. I started designing place-based mobile apps with my students and in my own creative work. I used Adobe Muse regularly for four years until one day Adobe announced they were discontinuing the tool. It was a dark day for me, but looking back, an important one in that it forced me to look for new tools I could use in my teaching. Eventually, that journey led to “basic coding,” that is, pedagogies and tools designed to give students a basic understanding of code and computer science and the skills to continue their own learning.</p>
+</div>
+
+    
+<!--Add images of digital technologies that factored in your development. We recommend using Creative Commons licensed images.-->
+<div class="flexbox-container">
+  <div class="row">
+      <div class="column">
+          <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+          <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+      </div>
+      <div class="column">
+          <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+          <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+      </div>
+      <div class="column">
+          <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+          <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+      </div>
+  </div>
+      <p><i>Technologies that have figured prominently in my attitudes about code and digital technology.</i></p>
+  </div>
+    
+<!--Flexbox uses rows and column classes to create layouts that scale content across devices. The style.css page provides other attributes that will adjust the image depending on the size of screens. Add images to your project folder and make sure the file name/type matches in your code. Resize images to less than 600px in width. This will improve load time accessibility. Don't forget to add alt="text"-->
+
+
+
+<!--Conduct your own Dear Data inquiry…collecting, analyzing, and communicating data (Shout out to Dear Data authors Georgia Lupi and Stefanie Posavec). Use your built-in screen time monitoring features on your phone, tablet, and computer to assist you in tracking your technology use over 5-7 days. Then create a data visualization using colored pencils, crayons, or markers that tells the story of you and your data. Here's our framing question “How do you interact with technology and in what ways? (frequency and distribution of various activities.) For example: What apps get you through your day, what kinds of media are you consuming, what kinds of websites are you using?-->
+<div class="text-block" style="text-align: left">
+  <h2><i>Dear Data</i>: Everyday Code</h2>
+    <p>I collected five-days worth of data tracking my use of computers. My data say that, excluding my sleeping hours, I interact with technology for all but a few hours a day. However, the data needs some qualification, as most of my mobile phone usage involves Libby, my public library app. I spend at least two hours a day listening to audio books on Libby. Right now I am listening to <i>Crime and Punishment</i>. During the work week I spend most of my day writing on Microsoft Word or researching on Google Scholar. At night, I spend an hour or so watching Netflix or YouTube. Right now I am watching the final season of <i>The Crown.</i> On the weekends I am pretty good at shutting off work, but my mobile phone usage goes way up, especially my use of Libby and Podcasts. I also use technology to connect with others…I spend around 3 hours messaging a week and two hours on Facebook. I would love to think my time on Facebook is positive, but lately I find myself getting trapped watching Reels or somehow ending up on Instagram.</p>
+</div>
+    
+<!--Take a picture of your data visualization and use it to replace the image in this picture. Control image width using inline styling. Adjust image size to 1200-600px depending on its need to scale across a screen. Remove or adjust the frame using the frame class on style.css.-->
+
+<div>
+  <img class="frame" src="code.jpg" alt="describe the image HERE for accessibility purposes"  width="90%";>
+<!--Add alt="text" image descriptions for visually impaired individuals using screen readers. Describe your image as clearly and succinctly as possible. Add captions. They provide another important layer of accessibility.-->
+    <div class="caption"><i>My Dear Data Visualization</i></div>
+</div>
+
+<!-- Go to style.css page to experiment with "frame class" properties like "background/padding/border/margin." You can also experiment with image filters and "border-radius."-->
+  
+<!--In this section, we'll move from talking about us to how code and digital technology has affected the ELA classroom-->
+<div class="text-block" style="text-align: left">
+  <h2>Code and digital technology in the ELA classroom</h2>
+    <p>When I first started teaching, I used a mimeograph machine to run copies. We’d fit the sheet we wanted to copy between wax sheets, then lock it onto the drum roller, make sure the machine had fluid, and turn it on…watch your fingers as the intoxicating purple sheets thumped out one at a time. Over my career in teaching, I must have killed dozens of trees. Today everything in my classroom is digital, and I love it. I especially love teaching writing using Google Docs. In the old days I’d leave handwritten feedback for students and watch them in turn, throw their papers straight in the trash bin. With Google Docs it's easier to work with students on revisions, and I can look through version control to see students improving their writing. Lately, teaching writing has brought some challenges, especially in terms of addressing Chat GPT. Rather than focusing on the death of teaching writing, I am trying to learn and grow with this new technology, working to discover how AI might enhance what we do as writing teachers, helping students learn the essence of “good writing.”   </p>
+</div>
+
+<!--You can keep or replace this polaroid image with something else. You can find other elements like YouTube video players in the "code repository" at the bottom of this HTML page. Simply copy and paste the code snippets where you want them to appear on your website.-->
+<div class="flexbox-container">
+  <div class="row">
+      <div class="column">
+<div class="polaroid">
+  <img src="polaroid1.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%">
+     <div class="polaroid-caption">
+       <p><i>The Mimeograph model I used.</i></p>
+       <br>
+     </div>
+</div>
+</div>
+<div class="column">
+  <div class="polaroid">
+    <img src="polaroid2.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%">
+       <div class="polaroid-caption">
+         <p><i>Students loved the fumes.</i></p>
+         <br>
+       </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!--Let's think a little about what we have learned and how we can apply this knowledge and skills moving forward.-->
+<div class="text-block" style="text-align: left">
+  <h2>Moving forward with ELA literacies, computational thinking, and social justice</h2>
+    <p>Moving forward, I’m interested in working with each of you and learning about your specific classroom needs. I find this process really exciting, because it gives me the opportunity to listen and work with you to develop solutions for your students and classroom. There is a great deal we can accomplish together. On the Pitt side, we’ve got great team of people committed to making SAS 2.0 a success. How can we help? </p>
+</div>
+
+  <!--Like a hero image, a parallax window provides a degree of animation for your viewer. Replace this image. The "parallax" class properties are controlled on the style.css document.-->
+<div class="parallax"></div>
+  <div class="caption">
+    <p><i>Launch of Chat GPT-8</i></p>
+</div>
+
+<div class="logo">
+  <img src="codela.jpg" alt="Codela logo" style="width:25%;">
+    <p><b>generated by <a href="https://codela-k12.github.io/main/">Codela</a></b></p>
+    <p><i>code for the English Language Arts classroom</i></p>
+</div>
+    
+</body>
+</html>
+
+
+  <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class CSS properties on style.css.
+
+
+    ***Add Text block***
+
+    (Format textblock using inline styling: text-align: left, center, justify, right. To improve accessibility, always left-align text longer than three lines; Format text: <i>italics</i>; <b>bold</b>; <u>underline</u>; <mark>highlight</mark>; <sup>superscript</sup>; <sub>subscript</sub>; Link Website: <a href="link">LinkName</a>; Line Breaks: <br></br>;
+
+  <div class="text-block" style="text-align: left">
+    <h2>Header</h2>
+       <p>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+
+
+    ***Add Pull Quote***
+
+    (Format text: Italics: <i>italics</i>; Bold: <b>bold</b>. Change font and font size using CSS)
+
+  <div class="pull-quote" style="text-align: center">
+    <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+  </div>
+
+
+
+    ***Bulleted Points or List***
+
+    (Nest within text-block or style using CSS. Change <ul> to <ol> in HTML to switch from unordered list to ordered list.)
+
+  <div>
+    <ul>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ul>
+  </div>
+
+
+
+    ***Add Link that Looks Like a Button***
+
+    (Clearly label link action. For more stylings, find button-box class properties on style.css)
+
+  <div class="button-box">
+    <a href="https://codela-k12.github.io/main" class="button">Go to Codela</a>
+  </div>
+
+
+
+    ***Add CSS Flexbox Container with Placeholder Images***
+
+    (Add or subtract columns. Control column width using CSS.)
+
+  <div class="flexbox-container">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Add Image Frame and Filters***
+
+    (Control frame class and image properties with CSS.)
+
+  <img class="frame" src="codela.jpg" alt="describe the image HERE for accessibility purposes">
+    <div class="caption">
+      <p><i>Add a caption</i></p>
+    </div>
+  
+
+
+
+    ***Add Polaroid***
+
+    (Control image width using CSS.)
+
+  <div class="polaroid">
+    <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes">
+      <div class="polaroid-caption">
+        <p><i>Add a caption</i></p>
+      </div>
+  </div>
+
+
+
+      ***Add Image Container with Text Box***
+
+      (Control Image Container properties using CSS.)
+
+  <div class="image-container">
+    <img src="image.jpg" alt="describe image here">
+      <div class="image-container-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+
+
+    ***Add Parallax Window***
+
+      (Adjust window height using parallax class on style.css)
+
+  <div class="parallax"></div>
+    <div class="caption">
+      <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Embed YouTube Video***
+
+  <div class="video">
+    <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/KVUBbM7pIYw?si=PIkNRIwkV2UqE1Td" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+       <p><i>Add a caption.</i></p>
+  </div>
+
+
+    ***Add Copyright Footer***
+
+  <div class="footer">
+    <p><i>Copyright Your Name, Year.</i></p>
+  </div>
+
+
+
+    ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
